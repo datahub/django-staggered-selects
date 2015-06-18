@@ -5,14 +5,14 @@ from setuptools import setup, find_packages
 from staggered_selects import __version__, __version_info__
 
 
-github_url = 'https://github.com/datahub/grappelli-nested-inlines'
+github_url = 'https://github.com/datahub/django-staggered-selects'
 github_tag_version = __version__
 
 
 setup(
     name='django-staggered-selects',
     version=__version__,
-    description='Enables nested inlines in the Django/Grappelli admin',
+    description='Staggered drop-down menus for the Django admin',
     url=github_url,
     download_url='%s/tarball/%s' % (github_url, __version__),
     author='Allan James Vestal',
